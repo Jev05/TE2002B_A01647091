@@ -1,0 +1,109 @@
+$date
+	Fri Feb 13 08:44:16 2026
+$end
+$version
+	Questa Altera Starter FPGA Edition Version 2025.2
+$end
+$timescale
+	1ps
+$end
+
+$scope module numeros_primos_tb $end
+$var reg 4 ! numero [3:0] $end
+$var wire 1 " primo $end
+
+$scope module dut $end
+$var wire 1 # numero [3] $end
+$var wire 1 $ numero [2] $end
+$var wire 1 % numero [1] $end
+$var wire 1 & numero [0] $end
+$var reg 1 ' primo $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0'
+0"
+0&
+0%
+0$
+0#
+$end
+#10
+b1 !
+1&
+#20
+b10 !
+0&
+1%
+1'
+1"
+#30
+b11 !
+1&
+#40
+b100 !
+0&
+0%
+1$
+0'
+0"
+#50
+b101 !
+1&
+1'
+1"
+#60
+b110 !
+0&
+1%
+0'
+0"
+#70
+b111 !
+1&
+1'
+1"
+#80
+b1000 !
+0&
+0%
+0$
+1#
+0'
+0"
+#90
+b1001 !
+1&
+#100
+b1010 !
+0&
+1%
+#110
+b1011 !
+1&
+1'
+1"
+#120
+b1100 !
+0&
+0%
+1$
+0'
+0"
+#130
+b1101 !
+1&
+1'
+1"
+#140
+b1110 !
+0&
+1%
+0'
+0"
+#150
+b1111 !
+1&
