@@ -41,6 +41,6 @@ Número 0: LED APAGADO
 <img width="817" height="633" alt="image" src="https://github.com/user-attachments/assets/10660064-502c-4e76-94c4-dfc6a04911cd" />
 
 
-Número 5: LED ENCCENDIDO
+Número 5: LED ENCENDIDO
 
 <img width="821" height="683" alt="image" src="https://github.com/user-attachments/assets/fe77ef19-2465-41e3-9310-67c78930b33a" />
