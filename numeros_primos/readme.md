@@ -7,13 +7,13 @@ Si se representa el número 1101 en binario, 13 en decimal, el LED enciende, pue
 En la lógica, los números 2, 3, 5, 7, 11 y 13 son determinados como primos, y debe encender el led indicando esa propiedad.
 
 case (numero)
-      4'd2,
-			4'd3,
-			4'd5,
-			4'd7,
-			4'd11,
-			4'd13: primo = 1;
-			default: primo = 0; //Se deja que el default es el led apagado, para que el led solo encienda si es primo.
+	4'd2, 
+	4'd3,
+	4'd5,
+	4'd7,
+	4'd11,
+	4'd13: primo = 1;
+	default: primo = 0; //Se deja que el default es el led apagado, para que el led solo encienda si es primo.
 
 
 
