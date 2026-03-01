@@ -1,4 +1,4 @@
-#PRÁCTICA CONTADOR
+# PRÁCTICA CONTADOR
 
 
 El módulo implementa un contador bidireccional con rango de 0 a 100, controlado por una señal de dirección (updown). Cuando updown es alto, el contador opera de forma ascendente; cuando es bajo, opera de forma descendente.
