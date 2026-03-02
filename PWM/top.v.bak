@@ -1,0 +1,25 @@
+module top(
+    input        MAX10_CLK1_50,
+    input  [1:0] KEY,
+    input  [7:0] SW,
+    output [0:6] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6,
+    output [0:0] ARDUINO_IO
+);
+
+    contador_w DISPLAY (
+        .MAX10_CLK1_50(MAX10_CLK1_50),
+        .KEY          (KEY),
+        .SW           (SW),
+        .HEX0(HEX0), .HEX1(HEX1), .HEX2(HEX2),
+        .HEX3(HEX3), .HEX4(HEX4), .HEX5(HEX5),
+        .HEX6(HEX6)
+    );
+
+    pwm SERVOO (
+        .MAX10_CLK1_50(MAX10_CLK1_50),
+        .KEY          (KEY),
+        .SW           (SW),
+        .SERVO        (ARDUINO_IO)
+    );
+
+endmodule

@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pelay/Downloads/TC2002B/PWM/simulation/questa
+vclk_div
+2C:/Users/pelay/Downloads/TC2002B/PWM/clk_div.v
+Z1 !s110 1772117348
+!i10b 1
+!s100 b7<GG^MT1BDRBD4FlPCQD3
+IRWbEmPD;mK6;AAM5[U`ea1
+R0
+w1772116329
+8C:/Users/pelay/Downloads/TC2002B/PWM/clk_div.v
+FC:/Users/pelay/Downloads/TC2002B/PWM/clk_div.v
+!i122 0
+L0 1 24
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z4 !s108 1772117348.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/PWM/clk_div.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/PWM|C:/Users/pelay/Downloads/TC2002B/PWM/clk_div.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 !s92 -work work +incdir+C:/Users/pelay/Downloads/TC2002B/PWM -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0 defaultOptions 1085333592
+vcontador
+2C:/Users/pelay/Downloads/TC2002B/PWM/contador.v
+R1
+!i10b 1
+!s100 Q4U;^DFVA:X<;[[JzlTFQ2
+IVbjeWgP<lf1AI7A>?b`IR0
+R0
+w1772117233
+8C:/Users/pelay/Downloads/TC2002B/PWM/contador.v
+FC:/Users/pelay/Downloads/TC2002B/PWM/contador.v
+!i122 1
+L0 1 18
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/pelay/Downloads/TC2002B/PWM/contador.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/PWM|C:/Users/pelay/Downloads/TC2002B/PWM/contador.v|
+!i113 0
+R5
+R6
+R7
+vcontador_w
+2C:/Users/pelay/Downloads/TC2002B/PWM/contador_w.v
+!s110 1772117349
+!i10b 1
+!s100 cWIHRUCj:Xf^oCd=eo9e_1
+IiW2K05<53Y5Yc?^0XB<zP2
+R0
+w1772117254
+8C:/Users/pelay/Downloads/TC2002B/PWM/contador_w.v
+FC:/Users/pelay/Downloads/TC2002B/PWM/contador_w.v
+!i122 2
+L0 1 33
+R2
+R3
+r1
+!s85 0
+31
+!s108 1772117349.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/PWM/contador_w.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/PWM|C:/Users/pelay/Downloads/TC2002B/PWM/contador_w.v|
+!i113 0
+R5
+R6
+R7
