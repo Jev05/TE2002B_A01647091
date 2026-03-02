@@ -28,19 +28,19 @@ Se deja que el default es el led apagado, para que el led solo encienda si es pr
 
 Número 13: LED ENCENDIDO
 
-<img width="832" height="583" alt="image" src="https://github.com/user-attachments/assets/badabf3b-fbe0-4dc0-8095-2368fa1aa410" />
+<img width="400" height="250" alt="image" src="https://github.com/user-attachments/assets/badabf3b-fbe0-4dc0-8095-2368fa1aa410" />
 
 
 Número 9: LED APAGADO
 
-<img width="837" height="641" alt="image" src="https://github.com/user-attachments/assets/cc9915ae-e7bf-4ca4-8bd1-79eaaf3abb02" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/cc9915ae-e7bf-4ca4-8bd1-79eaaf3abb02" />
 
 
 Número 0: LED APAGADO
 
-<img width="817" height="633" alt="image" src="https://github.com/user-attachments/assets/10660064-502c-4e76-94c4-dfc6a04911cd" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/10660064-502c-4e76-94c4-dfc6a04911cd" />
 
 
 Número 5: LED ENCENDIDO
 
-<img width="821" height="683" alt="image" src="https://github.com/user-attachments/assets/fe77ef19-2465-41e3-9310-67c78930b33a" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/fe77ef19-2465-41e3-9310-67c78930b33a" />
