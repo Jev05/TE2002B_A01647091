@@ -34,7 +34,9 @@ El usuario ingresa un número por medio de los switches, y para poder cargarlo d
 **DEMOSTRACIÓN FÍSICA**
 
 
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/7dba4043-8d1e-4ff5-9a25-a1a6ed8608eb" />
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/ffa45bed-b91b-4982-827a-01c70db4e4fa" />
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/336710b3-2e64-4966-b982-48cd9f1778c6" />
+![uno](https://github.com/user-attachments/assets/8a97e6ec-fd51-404f-af36-89749e47307e)
+![dos](https://github.com/user-attachments/assets/6703ffc8-a8ec-4730-b2d4-98d9ab754351)
+![tres](https://github.com/user-attachments/assets/e5678840-dff4-4102-94e4-c09d8bfd3cd0)
+
+
 
