@@ -19,3 +19,4 @@ Se regula la frecuencia por medio del módulo clk_div (clock divider) y se muest
 
 **DEMOSTRACIÓN FÍSICA**
 
+Video adjuntado en repositorio de la práctica
