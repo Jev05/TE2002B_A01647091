@@ -1,0 +1,351 @@
+$date
+	Sun Mar  1 18:15:09 2026
+$end
+$version
+	Questa Altera Starter FPGA Edition Version 2025.2
+$end
+$timescale
+	1ps
+$end
+
+$scope module pass_w_tb $end
+$var reg 4 ! SW [3:0] $end
+$var reg 2 " KEY [1:0] $end
+$var wire 1 # HEX0 [0] $end
+$var wire 1 $ HEX0 [1] $end
+$var wire 1 % HEX0 [2] $end
+$var wire 1 & HEX0 [3] $end
+$var wire 1 ' HEX0 [4] $end
+$var wire 1 ( HEX0 [5] $end
+$var wire 1 ) HEX0 [6] $end
+$var wire 1 * HEX1 [0] $end
+$var wire 1 + HEX1 [1] $end
+$var wire 1 , HEX1 [2] $end
+$var wire 1 - HEX1 [3] $end
+$var wire 1 . HEX1 [4] $end
+$var wire 1 / HEX1 [5] $end
+$var wire 1 0 HEX1 [6] $end
+$var wire 1 1 HEX2 [0] $end
+$var wire 1 2 HEX2 [1] $end
+$var wire 1 3 HEX2 [2] $end
+$var wire 1 4 HEX2 [3] $end
+$var wire 1 5 HEX2 [4] $end
+$var wire 1 6 HEX2 [5] $end
+$var wire 1 7 HEX2 [6] $end
+$var wire 1 8 HEX3 [0] $end
+$var wire 1 9 HEX3 [1] $end
+$var wire 1 : HEX3 [2] $end
+$var wire 1 ; HEX3 [3] $end
+$var wire 1 < HEX3 [4] $end
+$var wire 1 = HEX3 [5] $end
+$var wire 1 > HEX3 [6] $end
+
+$scope module dut $end
+$var parameter 32 ? S0 $end
+$var parameter 32 @ S1 $end
+$var parameter 32 A S2 $end
+$var parameter 32 B S3 $end
+$var parameter 32 C OK $end
+$var parameter 32 D ERR $end
+$var wire 1 E SW [3] $end
+$var wire 1 F SW [2] $end
+$var wire 1 G SW [1] $end
+$var wire 1 H SW [0] $end
+$var wire 1 I KEY [1] $end
+$var wire 1 J KEY [0] $end
+$var wire 1 # HEX0 [0] $end
+$var wire 1 $ HEX0 [1] $end
+$var wire 1 % HEX0 [2] $end
+$var wire 1 & HEX0 [3] $end
+$var wire 1 ' HEX0 [4] $end
+$var wire 1 ( HEX0 [5] $end
+$var wire 1 ) HEX0 [6] $end
+$var wire 1 * HEX1 [0] $end
+$var wire 1 + HEX1 [1] $end
+$var wire 1 , HEX1 [2] $end
+$var wire 1 - HEX1 [3] $end
+$var wire 1 . HEX1 [4] $end
+$var wire 1 / HEX1 [5] $end
+$var wire 1 0 HEX1 [6] $end
+$var wire 1 1 HEX2 [0] $end
+$var wire 1 2 HEX2 [1] $end
+$var wire 1 3 HEX2 [2] $end
+$var wire 1 4 HEX2 [3] $end
+$var wire 1 5 HEX2 [4] $end
+$var wire 1 6 HEX2 [5] $end
+$var wire 1 7 HEX2 [6] $end
+$var wire 1 8 HEX3 [0] $end
+$var wire 1 9 HEX3 [1] $end
+$var wire 1 : HEX3 [2] $end
+$var wire 1 ; HEX3 [3] $end
+$var wire 1 < HEX3 [4] $end
+$var wire 1 = HEX3 [5] $end
+$var wire 1 > HEX3 [6] $end
+$var reg 3 K state [2:0] $end
+$var reg 3 L nextstate [2:0] $end
+$var reg 16 M pass [15:0] $end
+$var reg 28 N display [0:27] $end
+$var wire 1 O aux [0] $end
+$var wire 1 P aux [1] $end
+$var wire 1 Q aux [2] $end
+$var wire 1 R aux [3] $end
+$var wire 1 S aux [4] $end
+$var wire 1 T aux [5] $end
+$var wire 1 U aux [6] $end
+$var wire 1 V btn $end
+$var wire 1 W rst $end
+
+$scope module seg0 $end
+$var wire 1 E bcd_in [3] $end
+$var wire 1 F bcd_in [2] $end
+$var wire 1 G bcd_in [1] $end
+$var wire 1 H bcd_in [0] $end
+$var reg 7 X bcd_out [0:6] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b1 "
+b0 K
+b101 L
+b1001000110100 M
+b1111111111111111111111111111 N
+b1 X
+b0 ?
+b1 @
+b10 A
+b11 B
+b100 C
+b101 D
+1)
+1(
+1'
+1&
+1%
+1$
+1#
+10
+1/
+1.
+1-
+1,
+1+
+1*
+17
+16
+15
+14
+13
+12
+11
+1>
+1=
+1<
+1;
+1:
+19
+18
+1U
+0T
+0S
+0R
+0Q
+0P
+0O
+1V
+0W
+1J
+0I
+0H
+0G
+0F
+0E
+$end
+#10000
+b11 "
+1I
+1W
+#20000
+b1 !
+1H
+b1001111 X
+b0 L
+b1 L
+1T
+1S
+1R
+1O
+#30000
+b10 "
+0J
+0V
+b1001111111111111111111111111 N
+b1 K
+0:
+09
+b101 L
+#40000
+b11 "
+1J
+1V
+#50000
+b10 !
+0H
+1G
+b10010 X
+b1 L
+b10 L
+0U
+0S
+0R
+1Q
+0O
+#60000
+b10 "
+0J
+0V
+b1001111100111111111111111111 N
+b10010100111111111111111111 N
+b10 K
+03
+02
+0>
+0<
+0;
+1:
+08
+b101 L
+#70000
+b11 "
+1J
+1V
+#80000
+b11 !
+1H
+b110 X
+b10 L
+b11 L
+1S
+0Q
+#90000
+b10 "
+0J
+0V
+b10010001001010011111111111 N
+b110001001010011111111111 N
+b11 K
+0,
+0+
+07
+05
+04
+13
+01
+1<
+0:
+b101 L
+#100000
+b11 "
+1J
+1V
+#110000
+b100 !
+0H
+0G
+1F
+b1001100 X
+b11 L
+b100 L
+0T
+1R
+1O
+#120000
+b10 "
+0J
+0V
+b110000011000100101001111 N
+b1001100000011000100101001111 N
+b100 K
+0%
+0$
+00
+0.
+0-
+1,
+0*
+15
+03
+0=
+1;
+18
+#130000
+b11 "
+1J
+1V
+#190000
+b1 "
+0I
+0W
+b0 K
+b1111111111111111111111111111 N
+1%
+1$
+10
+1.
+1-
+1+
+1*
+17
+14
+13
+12
+11
+1>
+1=
+1:
+19
+b0 L
+b101 L
+#200000
+b11 "
+1I
+1W
+#210000
+b1001 !
+1H
+0F
+1E
+b100 X
+b0 L
+b101 L
+0R
+0O
+#220000
+b10 "
+0J
+0V
+b101 K
+b1111111110000000010001000010 N
+0)
+0'
+0&
+0%
+0$
+00
+0/
+0.
+0,
+0+
+0*
+07
+06
+05
+04
+03
+#230000
+b11 "
+1J
+1V

@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/pelay/Downloads/TC2002B/password/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1772410500
+VKoECzdS?zo;IV4iY95?<i1
+04 9 4 work pass_w_tb fast 0
+=1-24fe9a0258db-69a4d682-3e5-fc24
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U3 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vpass_w
+2C:/Users/pelay/Downloads/TC2002B/password/pass_w.v
+!s110 1772410496
+!i10b 1
+!s100 1l7iD1na:c0D<dTbM=;eS1
+IbH^34_NzDP26Y[DA2T8jI3
+R1
+w1772408902
+8C:/Users/pelay/Downloads/TC2002B/password/pass_w.v
+FC:/Users/pelay/Downloads/TC2002B/password/pass_w.v
+!i122 0
+L0 1 78
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2025.2;82
+r1
+!s85 0
+31
+!s108 1772410496.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/password/pass_w.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/password|C:/Users/pelay/Downloads/TC2002B/password/pass_w.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 !s92 -work work +incdir+C:/Users/pelay/Downloads/TC2002B/password -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0 defaultOptions 1085333592
+vpass_w_tb
+2C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v
+Z7 !s110 1772410497
+!i10b 1
+!s100 ]gN`F?mB;APMBGMiBeUXf2
+Ihz5fL3gA@J]ZjKYdYi4F:3
+R1
+w1772410424
+8C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v
+FC:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v
+!i122 2
+L0 3 81
+R2
+R3
+r1
+!s85 0
+31
+Z8 !s108 1772410497.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/password|C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v|
+!i113 0
+R4
+R5
+R6
+vsegments
+2C:/Users/pelay/Downloads/TC2002B/password/segments.v
+R7
+!i10b 1
+!s100 7PZSJ151=E@O8`A^fc7Ke1
+IjVPE[7LE^03nFz=aJdkZR2
+R1
+w1772408496
+8C:/Users/pelay/Downloads/TC2002B/password/segments.v
+FC:/Users/pelay/Downloads/TC2002B/password/segments.v
+!i122 1
+L0 1 21
+R2
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/pelay/Downloads/TC2002B/password/segments.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/password|C:/Users/pelay/Downloads/TC2002B/password/segments.v|
+!i113 0
+R4
+R5
+R6

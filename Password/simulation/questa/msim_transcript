@@ -1,0 +1,105 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do password_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog  -work work +incdir+C:/Users/pelay/Downloads/TC2002B/password {C:/Users/pelay/Downloads/TC2002B/password/pass_w.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 18:14:56 on Mar 01,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/pelay/Downloads/TC2002B/password" C:/Users/pelay/Downloads/TC2002B/password/pass_w.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module pass_w
+# 
+# Top level modules:
+# 	pass_w
+# End time: 18:14:56 on Mar 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/pelay/Downloads/TC2002B/password {C:/Users/pelay/Downloads/TC2002B/password/segments.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 18:14:57 on Mar 01,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/pelay/Downloads/TC2002B/password" C:/Users/pelay/Downloads/TC2002B/password/segments.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module segments
+# 
+# Top level modules:
+# 	segments
+# End time: 18:14:57 on Mar 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog  -work work +incdir+C:/Users/pelay/Downloads/TC2002B/password {C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 18:14:57 on Mar 01,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/pelay/Downloads/TC2002B/password" C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module pass_w_tb
+# 
+# Top level modules:
+# 	pass_w_tb
+# End time: 18:14:57 on Mar 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  pass_w_tb
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" pass_w_tb 
+# Start time: 18:14:58 on Mar 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "pass_w(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.pass_w_tb(fast)
+# Loading work.pass_w(fast)
+# Loading work.segments(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Tiempo: 0 | SW: 0000 | KEY: 01 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1111111
+# Tiempo: 10000 | SW: 0000 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1111111
+# Tiempo: 20000 | SW: 0001 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1111111
+# Tiempo: 30000 | SW: 0001 | KEY: 10 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1001111
+# Tiempo: 40000 | SW: 0001 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1001111
+# Tiempo: 50000 | SW: 0010 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1001111
+# Tiempo: 60000 | SW: 0010 | KEY: 10 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1001111 | HEX3: 0010010
+# Tiempo: 70000 | SW: 0010 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1001111 | HEX3: 0010010
+# Tiempo: 80000 | SW: 0011 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1001111 | HEX3: 0010010
+# Tiempo: 90000 | SW: 0011 | KEY: 10 | HEX0: 1111111 | HEX1: 1001111 | HEX2: 0010010 | HEX3: 0000110
+# Tiempo: 100000 | SW: 0011 | KEY: 11 | HEX0: 1111111 | HEX1: 1001111 | HEX2: 0010010 | HEX3: 0000110
+# Tiempo: 110000 | SW: 0100 | KEY: 11 | HEX0: 1111111 | HEX1: 1001111 | HEX2: 0010010 | HEX3: 0000110
+# Tiempo: 120000 | SW: 0100 | KEY: 10 | HEX0: 1001111 | HEX1: 0010010 | HEX2: 0000110 | HEX3: 1001100
+# Tiempo: 130000 | SW: 0100 | KEY: 11 | HEX0: 1001111 | HEX1: 0010010 | HEX2: 0000110 | HEX3: 1001100
+# Tiempo: 190000 | SW: 0100 | KEY: 01 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1111111
+# Tiempo: 200000 | SW: 0100 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1111111
+# Tiempo: 210000 | SW: 1001 | KEY: 11 | HEX0: 1111111 | HEX1: 1111111 | HEX2: 1111111 | HEX3: 1111111
+# Tiempo: 220000 | SW: 1001 | KEY: 10 | HEX0: 1000010 | HEX1: 0001000 | HEX2: 1100000 | HEX3: 1111111
+# Tiempo: 230000 | SW: 1001 | KEY: 11 | HEX0: 1000010 | HEX1: 0001000 | HEX2: 1100000 | HEX3: 1111111
+# ** Note: $stop    : C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v(70)
+#    Time: 290 ns  Iteration: 0  Instance: /pass_w_tb
+# Break in Module pass_w_tb at C:/Users/pelay/Downloads/TC2002B/password/pass_w_tb.v line 70
+# End time: 18:16:57 on Mar 01,2026, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 1
