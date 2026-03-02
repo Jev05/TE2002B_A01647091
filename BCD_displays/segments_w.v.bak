@@ -1,0 +1,7 @@
+module segments_w(
+	input[3:0] SW,
+	output [0:6] HEX0);
+	segments WRAP(
+		.bcd_in(SW), .bcd_out(HEX0)
+);
+endmodule
