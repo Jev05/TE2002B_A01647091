@@ -16,7 +16,8 @@ Se puede seleccionar el ángulo deseado mediante switches, los cuales definen el
 
 <img width="1545" height="535" alt="image" src="https://github.com/user-attachments/assets/73b9f858-6a11-478d-9e96-a10acf65e73b" />
 
-<img width="1513" height="877" alt="image" src="https://github.com/user-attachments/assets/7226d3bc-6084-45b2-a894-821aa7c05cee" />
+<img width="1556" height="876" alt="image" src="https://github.com/user-attachments/assets/cc4a9463-ecbf-4a9a-9022-b7d424db5a40" />
+
 
 
 **DEMOSTRACIÓN FÍSICA**
