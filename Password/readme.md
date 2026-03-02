@@ -35,7 +35,9 @@ El usuario ingresa un número por medio de los switches, y para poder cargarlo d
 
 
 ![uno](https://github.com/user-attachments/assets/8a97e6ec-fd51-404f-af36-89749e47307e)
+
 ![dos](https://github.com/user-attachments/assets/6703ffc8-a8ec-4730-b2d4-98d9ab754351)
+
 ![tres](https://github.com/user-attachments/assets/e5678840-dff4-4102-94e4-c09d8bfd3cd0)
 
 
