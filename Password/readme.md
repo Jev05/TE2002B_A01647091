@@ -11,7 +11,7 @@ El usuario ingresa un número por medio de los switches, y para poder cargarlo d
 **SIMUACIÓN QUESTA SIM**
 
 
-<img style="transform: rotate(90deg);"width="1780" height="972" alt="image" src="https://github.com/user-attachments/assets/5cef7580-8f4a-4869-841f-4492a34ab396" />
+<img width="1780" height="972" alt="image" src="https://github.com/user-attachments/assets/5cef7580-8f4a-4869-841f-4492a34ab396" style="transform: rotate(90deg);"/>
 
 
 
