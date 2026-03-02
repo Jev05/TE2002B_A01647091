@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/pelay/Downloads/TC2002B/segments/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1772468454
+Vl4[6`AZClQZJ7=1DL_6QC2
+04 11 4 work segments_tb fast 0
+=1-24fe9a0258db-69a5b8e4-204-13128
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vBCD_4displays
+2C:/Users/pelay/Downloads/TC2002B/segments/BCD_4displays.v
+Z2 !s110 1772468450
+!i10b 1
+!s100 _bWFN9ki<fUg41oOkA=h62
+IX_[jn;jCH8FoUD6ZG2g7D3
+R1
+w1772468358
+8C:/Users/pelay/Downloads/TC2002B/segments/BCD_4displays.v
+FC:/Users/pelay/Downloads/TC2002B/segments/BCD_4displays.v
+!i122 2
+L0 1 39
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z5 !s108 1772468450.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/segments/BCD_4displays.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/segments|C:/Users/pelay/Downloads/TC2002B/segments/BCD_4displays.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -work work +incdir+C:/Users/pelay/Downloads/TC2002B/segments -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0 defaultOptions 1085333592
+n@b@c@d_4displays
+vsegments
+2C:/Users/pelay/Downloads/TC2002B/segments/segments.v
+R2
+!i10b 1
+!s100 7PZSJ151=E@O8`A^fc7Ke1
+IiiZS04TAKZZkL1<iTL?DE0
+R1
+w1771252108
+8C:/Users/pelay/Downloads/TC2002B/segments/segments.v
+FC:/Users/pelay/Downloads/TC2002B/segments/segments.v
+!i122 0
+L0 1 21
+R3
+R4
+r1
+!s85 0
+31
+!s108 1772468449.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/segments/segments.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/segments|C:/Users/pelay/Downloads/TC2002B/segments/segments.v|
+!i113 0
+R6
+R7
+R8
+vsegments_tb
+2C:/Users/pelay/Downloads/TC2002B/segments/segments_tb.v
+!s110 1772468451
+!i10b 1
+!s100 IY<7^Lh_lF]cX>?9inH3>3
+I80T2N`NXgk8CVlAcd>8B50
+R1
+w1771252255
+8C:/Users/pelay/Downloads/TC2002B/segments/segments_tb.v
+FC:/Users/pelay/Downloads/TC2002B/segments/segments_tb.v
+!i122 3
+L0 1 28
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/pelay/Downloads/TC2002B/segments/segments_tb.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/segments|C:/Users/pelay/Downloads/TC2002B/segments/segments_tb.v|
+!i113 0
+R6
+R7
+R8
+vsegments_w
+2C:/Users/pelay/Downloads/TC2002B/segments/segments_w.v
+R2
+!i10b 1
+!s100 GVF:h<mz1;VcjhBXhhle;2
+I7FCU6XJYXmUDb5?gJhb6M1
+R1
+w1771596686
+8C:/Users/pelay/Downloads/TC2002B/segments/segments_w.v
+FC:/Users/pelay/Downloads/TC2002B/segments/segments_w.v
+!i122 1
+L0 1 17
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/pelay/Downloads/TC2002B/segments/segments_w.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/segments|C:/Users/pelay/Downloads/TC2002B/segments/segments_w.v|
+!i113 0
+R6
+R7
+R8

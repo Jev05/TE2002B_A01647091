@@ -1,0 +1,59 @@
+module maquina(
+	input CLOCK_50, 
+	input [0:0] SW,
+	input [0:0] KEY,
+	output reg [4:0] LEDR
+);
+	reg clk_d;
+	clk_div division(.clk(CLOCK_50), .rst(KEY[0]), .clk_d(clk_d));
+	
+	parameter S0=0, S1=1, S2=2, S3=3;
+	
+	reg [1:0] state, nextstate;
+	wire x=SW[0];
+	wire reset=KEY[0];
+	
+	always @(posedge clk_d or negedge reset) begin
+		if (reset==0) state <=S0;
+		
+		else state<=nextstate;
+	end
+	always @(*) begin
+		case(state)
+			S0:begin
+				if(x==1) nextstate=S1;
+				
+				else nextstate=S0;
+			end
+			S1:begin
+				if(x==0) nextstate=S2;
+				
+				else nextstate=S1;
+			end
+			S2:begin
+				if(x==1) nextstate=S3;
+				
+				else nextstate=S0;
+			end
+			S3:begin
+				if(x==1) nextstate=S1;
+				
+				else nextstate=S2;
+			end
+			default:begin
+				nextstate=S0;
+			end
+		endcase
+	end
+	
+	always @(*) begin
+		LEDR = 4'b0000;
+		
+		case(state)
+			S0: LEDR[0]=1;
+			S0: LEDR[1]=1;
+			S0: LEDR[2]=1;
+			S0: LEDR[3]=1;
+		endcase
+	end
+endmodule

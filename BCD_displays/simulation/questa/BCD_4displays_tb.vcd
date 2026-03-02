@@ -1,0 +1,427 @@
+$date
+	Wed Feb 18 07:38:02 2026
+$end
+$version
+	Questa Altera Starter FPGA Edition Version 2025.2
+$end
+$timescale
+	1ps
+$end
+
+$scope module BCD_4displays_tb $end
+$var parameter 32 ! N_in $end
+$var parameter 32 " N_out $end
+$var reg 10 # bcd_in [9:0] $end
+$var wire 1 $ D_un [6] $end
+$var wire 1 % D_un [5] $end
+$var wire 1 & D_un [4] $end
+$var wire 1 ' D_un [3] $end
+$var wire 1 ( D_un [2] $end
+$var wire 1 ) D_un [1] $end
+$var wire 1 * D_un [0] $end
+$var wire 1 + D_de [6] $end
+$var wire 1 , D_de [5] $end
+$var wire 1 - D_de [4] $end
+$var wire 1 . D_de [3] $end
+$var wire 1 / D_de [2] $end
+$var wire 1 0 D_de [1] $end
+$var wire 1 1 D_de [0] $end
+$var wire 1 2 D_cen [6] $end
+$var wire 1 3 D_cen [5] $end
+$var wire 1 4 D_cen [4] $end
+$var wire 1 5 D_cen [3] $end
+$var wire 1 6 D_cen [2] $end
+$var wire 1 7 D_cen [1] $end
+$var wire 1 8 D_cen [0] $end
+$var wire 1 9 D_un_mi [6] $end
+$var wire 1 : D_un_mi [5] $end
+$var wire 1 ; D_un_mi [4] $end
+$var wire 1 < D_un_mi [3] $end
+$var wire 1 = D_un_mi [2] $end
+$var wire 1 > D_un_mi [1] $end
+$var wire 1 ? D_un_mi [0] $end
+
+$scope module dut $end
+$var parameter 32 @ N_in $end
+$var parameter 32 A N_out $end
+$var wire 1 B bcd_in [9] $end
+$var wire 1 C bcd_in [8] $end
+$var wire 1 D bcd_in [7] $end
+$var wire 1 E bcd_in [6] $end
+$var wire 1 F bcd_in [5] $end
+$var wire 1 G bcd_in [4] $end
+$var wire 1 H bcd_in [3] $end
+$var wire 1 I bcd_in [2] $end
+$var wire 1 J bcd_in [1] $end
+$var wire 1 K bcd_in [0] $end
+$var wire 1 $ D_un [6] $end
+$var wire 1 % D_un [5] $end
+$var wire 1 & D_un [4] $end
+$var wire 1 ' D_un [3] $end
+$var wire 1 ( D_un [2] $end
+$var wire 1 ) D_un [1] $end
+$var wire 1 * D_un [0] $end
+$var wire 1 + D_de [6] $end
+$var wire 1 , D_de [5] $end
+$var wire 1 - D_de [4] $end
+$var wire 1 . D_de [3] $end
+$var wire 1 / D_de [2] $end
+$var wire 1 0 D_de [1] $end
+$var wire 1 1 D_de [0] $end
+$var wire 1 2 D_cen [6] $end
+$var wire 1 3 D_cen [5] $end
+$var wire 1 4 D_cen [4] $end
+$var wire 1 5 D_cen [3] $end
+$var wire 1 6 D_cen [2] $end
+$var wire 1 7 D_cen [1] $end
+$var wire 1 8 D_cen [0] $end
+$var wire 1 9 D_un_mi [6] $end
+$var wire 1 : D_un_mi [5] $end
+$var wire 1 ; D_un_mi [4] $end
+$var wire 1 < D_un_mi [3] $end
+$var wire 1 = D_un_mi [2] $end
+$var wire 1 > D_un_mi [1] $end
+$var wire 1 ? D_un_mi [0] $end
+$var wire 1 L unidades [3] $end
+$var wire 1 M unidades [2] $end
+$var wire 1 N unidades [1] $end
+$var wire 1 O unidades [0] $end
+$var wire 1 P decenas [3] $end
+$var wire 1 Q decenas [2] $end
+$var wire 1 R decenas [1] $end
+$var wire 1 S decenas [0] $end
+$var wire 1 T centenas [3] $end
+$var wire 1 U centenas [2] $end
+$var wire 1 V centenas [1] $end
+$var wire 1 W centenas [0] $end
+$var wire 1 X millares [3] $end
+$var wire 1 Y millares [2] $end
+$var wire 1 Z millares [1] $end
+$var wire 1 [ millares [0] $end
+
+$scope module unidadess $end
+$var wire 1 L bcd_in [3] $end
+$var wire 1 M bcd_in [2] $end
+$var wire 1 N bcd_in [1] $end
+$var wire 1 O bcd_in [0] $end
+$var reg 7 \ bcd_out [0:6] $end
+$upscope $end
+
+$scope module decenass $end
+$var wire 1 P bcd_in [3] $end
+$var wire 1 Q bcd_in [2] $end
+$var wire 1 R bcd_in [1] $end
+$var wire 1 S bcd_in [0] $end
+$var reg 7 ] bcd_out [0:6] $end
+$upscope $end
+
+$scope module centenass $end
+$var wire 1 T bcd_in [3] $end
+$var wire 1 U bcd_in [2] $end
+$var wire 1 V bcd_in [1] $end
+$var wire 1 W bcd_in [0] $end
+$var reg 7 ^ bcd_out [0:6] $end
+$upscope $end
+
+$scope module millaress $end
+$var wire 1 X bcd_in [3] $end
+$var wire 1 Y bcd_in [2] $end
+$var wire 1 Z bcd_in [1] $end
+$var wire 1 [ bcd_in [0] $end
+$var reg 7 _ bcd_out [0:6] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1110010010 #
+b1001100 \
+b1001111 ]
+b100 ^
+b1 _
+b1010 !
+b111 "
+b1010 @
+b111 A
+0*
+0)
+1(
+1'
+0&
+0%
+1$
+11
+10
+1/
+1.
+0-
+0,
+1+
+08
+07
+16
+05
+04
+03
+02
+1?
+0>
+0=
+0<
+0;
+0:
+09
+0O
+0N
+1M
+0L
+1S
+0R
+0Q
+0P
+1W
+0V
+0U
+1T
+0[
+0Z
+0Y
+0X
+0K
+1J
+0I
+0H
+1G
+0F
+0E
+1D
+1C
+1B
+$end
+#10
+b11100001 #
+1K
+0J
+0G
+1F
+1E
+0C
+0B
+1O
+0S
+1R
+0W
+1V
+0T
+b10010 ^
+b10010 ]
+b100100 \
+0'
+1%
+0$
+01
+0/
+0.
+1-
+0+
+17
+06
+14
+#20
+b1110000101 #
+1I
+0F
+0E
+1C
+1B
+0M
+0R
+1W
+0V
+1T
+b100 ^
+b1 ]
+b1001111 \
+1*
+1)
+1'
+0%
+1$
+11
+00
+0-
+07
+16
+04
+#30
+b110010111 #
+1J
+1G
+0B
+1N
+1M
+0W
+1U
+0T
+b1001100 ^
+b1111 \
+0$
+15
+12
+#40
+b111010111 #
+1E
+0N
+0M
+1S
+1R
+1Q
+b1111 ]
+b1001111 \
+1$
+10
+1/
+1.
+#50
+b111100010 #
+0K
+0I
+0G
+1F
+0O
+1N
+0S
+0R
+0Q
+1P
+b0 ]
+b10010 \
+0*
+0(
+0'
+1&
+0$
+01
+00
+0/
+0.
+#60
+b110010 #
+1G
+0E
+0D
+0C
+0N
+1S
+1Q
+0P
+0U
+b1 ^
+b100100 ]
+b1 \
+1*
+0)
+0&
+1/
+1,
+18
+06
+05
+02
+#70
+b1111001 #
+1K
+0J
+1H
+1E
+1O
+0S
+1R
+0Q
+1W
+b1001111 ^
+b10010 ]
+b1001111 \
+1)
+1(
+1'
+1$
+10
+0/
+1-
+0,
+17
+16
+15
+12
+#80
+b1001 #
+0G
+0F
+0E
+1L
+0R
+0W
+b1 ^
+b1 ]
+b100 \
+0*
+0)
+0'
+0$
+11
+00
+0-
+07
+06
+05
+02
+#90
+b1101101101 #
+1I
+1F
+1E
+1C
+1B
+1N
+1M
+0L
+1S
+1R
+1Q
+1T
+b0 ^
+b1111 ]
+b1111 \
+1*
+1)
+1'
+10
+1/
+1.
+08
+#100
+b1000100101 #
+0H
+0E
+0C
+0N
+0M
+1L
+0S
+0R
+1W
+1U
+0T
+b100100 ^
+b1001100 ]
+b100 \
+0*
+0)
+0'
+01
+00
+1+
+16
+13
