@@ -1,0 +1,6 @@
+1 7 clk_div 4 fast 69 C:/Users/pelay/Downloads/TC2002B/Debouncer/simulation/questa/rtl_work 0 0 0 0 46 0
+1 8 contador 4 fast 69 C:/Users/pelay/Downloads/TC2002B/Debouncer/simulation/questa/rtl_work 0 0 0 0 48 0
+1 8 segments 4 fast 69 C:/Users/pelay/Downloads/TC2002B/Debouncer/simulation/questa/rtl_work 0 0 0 0 32 0
+1 13 BCD_4displays 4 fast 69 C:/Users/pelay/Downloads/TC2002B/Debouncer/simulation/questa/rtl_work 0 0 0 0 53 0
+1 3 top 4 fast 69 C:/Users/pelay/Downloads/TC2002B/Debouncer/simulation/questa/rtl_work 0 0 0 0 126 0
+1 6 top_tb 4 fast 69 C:/Users/pelay/Downloads/TC2002B/Debouncer/simulation/questa/rtl_work 0 0 180224 0 230 0

@@ -1,0 +1,81 @@
+`timescale 1ns/1ps
+
+module top_tb;
+
+reg        MAX10_CLK1_50;
+reg  [1:0] KEY;
+wire [2:0] LEDR;
+wire [0:6] HEX0, HEX1, HEX2, HEX3;
+
+top dut (
+    .MAX10_CLK1_50(MAX10_CLK1_50),
+    .KEY          (KEY),
+    .LEDR         (LEDR),
+    .HEX0         (HEX0),
+    .HEX1         (HEX1),
+    .HEX2         (HEX2),
+    .HEX3         (HEX3)
+);
+
+
+initial MAX10_CLK1_50 = 0;
+always #10 MAX10_CLK1_50 = ~MAX10_CLK1_50;
+
+
+initial begin
+    KEY = 2'b11;
+
+
+    KEY[1] = 0; #100; KEY[1] = 1; #100;
+
+
+    $display("Test 3 pulsos limpios");
+
+    KEY[0] = 0; #25_000_000;  
+    KEY[0] = 1; #25_000_000;
+
+    KEY[0] = 0; #25_000_000; 
+    KEY[0] = 1; #25_000_000;
+
+    KEY[0] = 0; #25_000_000;
+    KEY[0] = 1; #25_000_000;
+
+    $display("contador_sin=%0d  contador_con=%0d", dut.contador_sin, dut.contador_con);
+
+    
+    KEY[1] = 0; #100; KEY[1] = 1; #100;
+	 
+    $display("Test 3 pulsos con rebote");
+
+    
+    KEY[0] = 0; #2_000_000;
+    KEY[0] = 1; #2_000_000;
+    KEY[0] = 0; #2_000_000;
+    KEY[0] = 1; #2_000_000;
+    KEY[0] = 0; #25_000_000;
+    KEY[0] = 1; #25_000_000;
+
+    
+    KEY[0] = 0; #2_000_000;
+    KEY[0] = 1; #2_000_000;
+    KEY[0] = 0; #2_000_000;
+    KEY[0] = 1; #2_000_000;
+    KEY[0] = 0; #25_000_000;
+    KEY[0] = 1; #25_000_000;
+
+    
+    KEY[0] = 0; #2_000_000;
+    KEY[0] = 1; #2_000_000;
+    KEY[0] = 0; #2_000_000;
+    KEY[0] = 1; #2_000_000;
+    KEY[0] = 0; #25_000_000;
+    KEY[0] = 1; #25_000_000;
+
+    $display("contador_sin=%0d  contador_con=%0d", dut.contador_sin, dut.contador_con);
+    
+
+    $display("Terminado");
+    $stop;
+end
+
+endmodule

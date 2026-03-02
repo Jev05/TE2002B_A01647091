@@ -1,0 +1,77 @@
+module top (
+    input  clk,
+    input  rst,
+    input  btn_in,
+    output [6:0] D_un_lim, D_de_lim,
+    output [6:0] D_un_suc, D_de_suc,
+    
+    output [6:0] D_cen_lim, D_un_mi_lim
+);
+
+    
+    wire clk_slow;
+    clk_div #(.FREQ(1000)) u_clk_div (
+        .clk(clk),
+        .rst(rst),
+        .clk_divi(clk_slow)
+    );
+
+    
+    wire btn_clean;
+    debuncer u_deb (
+        .clk(clk),
+        .rst(rst),
+        .btn_in(btn_in),
+        .btn_out(btn_clean)
+    );
+
+    
+    reg btn_clean_prev, btn_sucio_prev;
+    wire pulso_limpio = (btn_clean  && !btn_clean_prev);
+    wire pulso_sucio  = (btn_in     && !btn_sucio_prev);
+
+    always @(posedge clk_slow or negedge rst) begin
+        if (!rst) begin
+            btn_clean_prev <= 0;
+            btn_sucio_prev <= 0;
+        end else begin
+            btn_clean_prev <= btn_clean;
+            btn_sucio_prev <= btn_in;
+        end
+    end
+
+    
+    reg [9:0] cnt_limpio, cnt_sucio;
+
+    always @(posedge clk_slow or negedge rst) begin
+        if (!rst)
+            cnt_limpio <= 0;
+        else if (pulso_limpio)
+            cnt_limpio <= cnt_limpio + 1;
+    end
+
+    always @(posedge clk_slow or negedge rst) begin
+        if (!rst)
+            cnt_sucio <= 0;
+        else if (pulso_sucio)
+            cnt_sucio <= cnt_sucio + 1;
+    end
+
+    
+    BCD_4displays u_disp_lim (
+        .bcd_in(cnt_limpio),
+        .D_un(D_un_lim),
+        .D_de(D_de_lim),
+        .D_cen(D_cen_lim),
+        .D_un_mi(D_un_mi_lim)
+    );
+
+    BCD_4displays u_disp_suc (
+        .bcd_in(cnt_sucio),
+        .D_un(D_un_suc),
+        .D_de(D_de_suc),
+        .D_cen(),       
+        .D_un_mi()      
+    );
+
+endmodule

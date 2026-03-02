@@ -1,0 +1,174 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/pelay/Downloads/TC2002B/Debouncer/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1772411907
+VZLR^<BTb?VX4SGihQkLM51
+04 6 4 work top_tb fast 0
+=1-24fe9a0258db-69a4dc01-3ca-10e78
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U14 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vBCD_4displays
+2C:/Users/pelay/Downloads/TC2002B/Debouncer/BCD_4displays.v
+Z2 !s110 1772411903
+!i10b 1
+!s100 _bWFN9ki<fUg41oOkA=h62
+ICfBjJJ^bcJDb=8EAVPb^c0
+R1
+w1772336657
+8C:/Users/pelay/Downloads/TC2002B/Debouncer/BCD_4displays.v
+FC:/Users/pelay/Downloads/TC2002B/Debouncer/BCD_4displays.v
+!i122 1
+L0 1 39
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z5 !s108 1772411903.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/Debouncer/BCD_4displays.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/Debouncer|C:/Users/pelay/Downloads/TC2002B/Debouncer/BCD_4displays.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -work work +incdir+C:/Users/pelay/Downloads/TC2002B/Debouncer -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0 defaultOptions 1085333592
+n@b@c@d_4displays
+vclk_div
+2C:/Users/pelay/Downloads/TC2002B/Debouncer/clk_div.v
+R2
+!i10b 1
+!s100 kG]``IXH2oa]MBMcbREH=1
+ICQn^13[SK2oUgaF8@kmkU1
+R1
+w1772337010
+8C:/Users/pelay/Downloads/TC2002B/Debouncer/clk_div.v
+FC:/Users/pelay/Downloads/TC2002B/Debouncer/clk_div.v
+!i122 2
+L0 1 26
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/pelay/Downloads/TC2002B/Debouncer/clk_div.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/Debouncer|C:/Users/pelay/Downloads/TC2002B/Debouncer/clk_div.v|
+!i113 0
+R6
+R7
+R8
+vcontador
+2C:/Users/pelay/Downloads/TC2002B/Debouncer/contador.v
+Z9 !s110 1772411904
+!i10b 1
+!s100 P:Yb_d00TbOZ?hPT]M4Bc0
+IKdaDfAN7z0Ph0NgEa45oW0
+R1
+w1772395456
+8C:/Users/pelay/Downloads/TC2002B/Debouncer/contador.v
+FC:/Users/pelay/Downloads/TC2002B/Debouncer/contador.v
+!i122 4
+L0 1 20
+R3
+R4
+r1
+!s85 0
+31
+Z10 !s108 1772411904.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/Debouncer/contador.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/Debouncer|C:/Users/pelay/Downloads/TC2002B/Debouncer/contador.v|
+!i113 0
+R6
+R7
+R8
+vsegments
+2C:/Users/pelay/Downloads/TC2002B/Debouncer/segments.v
+!s110 1772411902
+!i10b 1
+!s100 7PZSJ151=E@O8`A^fc7Ke1
+I3YnX1nN[hfHZ@G?`581gO2
+R1
+w1772336621
+8C:/Users/pelay/Downloads/TC2002B/Debouncer/segments.v
+FC:/Users/pelay/Downloads/TC2002B/Debouncer/segments.v
+!i122 0
+L0 1 21
+R3
+R4
+r1
+!s85 0
+31
+!s108 1772411902.000000
+!s107 C:/Users/pelay/Downloads/TC2002B/Debouncer/segments.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/Debouncer|C:/Users/pelay/Downloads/TC2002B/Debouncer/segments.v|
+!i113 0
+R6
+R7
+R8
+vtop
+2C:/Users/pelay/Downloads/TC2002B/Debouncer/top.v
+R9
+!i10b 1
+!s100 e1><hUhzzmSzUUMJoO1_U0
+IH46FnKWZa`ARGSK>2TA>c3
+R1
+w1772395741
+8C:/Users/pelay/Downloads/TC2002B/Debouncer/top.v
+FC:/Users/pelay/Downloads/TC2002B/Debouncer/top.v
+!i122 3
+L0 1 80
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/pelay/Downloads/TC2002B/Debouncer/top.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/Debouncer|C:/Users/pelay/Downloads/TC2002B/Debouncer/top.v|
+!i113 0
+R6
+R7
+R8
+vtop_tb
+2C:/Users/pelay/Downloads/TC2002B/Debouncer/top_tb.v
+R9
+!i10b 1
+!s100 VS>MIZ@7jTZ?WfHKhZ9N[2
+I]SKE8P_@O^AmEn7Dg2Li30
+R1
+w1772411768
+8C:/Users/pelay/Downloads/TC2002B/Debouncer/top_tb.v
+FC:/Users/pelay/Downloads/TC2002B/Debouncer/top_tb.v
+!i122 5
+L0 3 84
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/pelay/Downloads/TC2002B/Debouncer/top_tb.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/pelay/Downloads/TC2002B/Debouncer|C:/Users/pelay/Downloads/TC2002B/Debouncer/top_tb.v|
+!i113 0
+R6
+R7
+R8
