@@ -22,8 +22,8 @@ El usuario ingresa un número por medio de los switches, y para poder cargarlo d
 **RTL VIEWER**
 
 
-<img width="774" height="220" alt="image" src="https://github.com/user-attachments/assets/b5580373-0fb9-4dc9-927f-2fb93daccdc3" />
-<img width="651" height="223" alt="image" src="https://github.com/user-attachments/assets/f29799cd-f8d5-4ff9-828a-5166f85b06d6" />
+<img width="1548" height="440" alt="image" src="https://github.com/user-attachments/assets/b5580373-0fb9-4dc9-927f-2fb93daccdc3" />
+<img width="1302" height="447" alt="image" src="https://github.com/user-attachments/assets/f29799cd-f8d5-4ff9-828a-5166f85b06d6" />
 
 
 
@@ -33,8 +33,8 @@ El usuario ingresa un número por medio de los switches, y para poder cargarlo d
 
 **DEMOSTRACIÓN FÍSICA**
 
+<img width="500" height="700" alt="image" src="https://github.com/user-attachments/assets/8a97e6ec-fd51-404f-af36-89749e47307e" />
 
-![uno](https://github.com/user-attachments/assets/8a97e6ec-fd51-404f-af36-89749e47307e)
 
 ![dos](https://github.com/user-attachments/assets/6703ffc8-a8ec-4730-b2d4-98d9ab754351)
 
