@@ -1,0 +1,7 @@
+module UART_tb();
+
+reg clk;
+reg rst;
+reg [7:0] data_in;
+reg start;
+wire tx_out;

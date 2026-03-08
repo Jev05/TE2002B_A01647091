@@ -1,0 +1,4 @@
+//desde el más pequeño hasta el más grande
+UART_Tx.v
+UART_Rx.v
+UART_tb.v
