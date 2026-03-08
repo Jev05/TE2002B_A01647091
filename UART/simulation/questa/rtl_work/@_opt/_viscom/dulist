@@ -1,0 +1,4 @@
+1 7 UART_Tx 4 fast 64 C:/Users/pelay/Downloads/TC2002B/UART/simulation/questa/rtl_work 0 0 180224 0 151 0
+1 7 UART_Rx 4 fast 64 C:/Users/pelay/Downloads/TC2002B/UART/simulation/questa/rtl_work 0 0 0 0 146 0
+1 4 UART 4 fast 64 C:/Users/pelay/Downloads/TC2002B/UART/simulation/questa/rtl_work 0 0 0 0 30 0
+1 12 UART_tb_txrx 4 fast 64 C:/Users/pelay/Downloads/TC2002B/UART/simulation/questa/rtl_work 0 0 0 0 116 0

@@ -1,0 +1,111 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do uart_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying c:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog  -work work +incdir+C:/Users/pelay/Downloads/TC2002B/UART {C:/Users/pelay/Downloads/TC2002B/UART/UART_Tx.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:57:13 on Mar 07,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/pelay/Downloads/TC2002B/UART" C:/Users/pelay/Downloads/TC2002B/UART/UART_Tx.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module UART_Tx
+# 
+# Top level modules:
+# 	UART_Tx
+# End time: 21:57:13 on Mar 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/pelay/Downloads/TC2002B/UART {C:/Users/pelay/Downloads/TC2002B/UART/UART_Rx.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:57:13 on Mar 07,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/pelay/Downloads/TC2002B/UART" C:/Users/pelay/Downloads/TC2002B/UART/UART_Rx.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module UART_Rx
+# 
+# Top level modules:
+# 	UART_Rx
+# End time: 21:57:14 on Mar 07,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog  -work work +incdir+C:/Users/pelay/Downloads/TC2002B/UART {C:/Users/pelay/Downloads/TC2002B/UART/UART.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:57:14 on Mar 07,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/pelay/Downloads/TC2002B/UART" C:/Users/pelay/Downloads/TC2002B/UART/UART.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module UART
+# 
+# Top level modules:
+# 	UART
+# End time: 21:57:14 on Mar 07,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog  -work work +incdir+C:/Users/pelay/Downloads/TC2002B/UART {C:/Users/pelay/Downloads/TC2002B/UART/UART_tb_txrx.v}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 21:57:14 on Mar 07,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/pelay/Downloads/TC2002B/UART" C:/Users/pelay/Downloads/TC2002B/UART/UART_tb_txrx.v 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module UART_tb_txrx
+# 
+# Top level modules:
+# 	UART_tb_txrx
+# End time: 21:57:15 on Mar 07,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  UART_tb_txrx
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" UART_tb_txrx 
+# Start time: 21:57:15 on Mar 07,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "UART_Tx(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "UART_Rx(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.UART_tb_txrx(fast)
+# Loading work.UART(fast)
+# Loading work.UART_Tx(fast)
+# Loading work.UART_Rx(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Simulacion iniciada
+# Dato transmitido: 24, Dato recibido: 24
+# Dato transmitido: 81, Dato recibido: 81
+# Dato transmitido: 09, Dato recibido: 09
+# Dato transmitido: 63, Dato recibido: 63
+# Dato transmitido: 0d, Dato recibido: 0d
+# Dato transmitido: 8d, Dato recibido: 8d
+# Dato transmitido: 65, Dato recibido: 65
+# Dato transmitido: 12, Dato recibido: 12
+# Dato transmitido: 01, Dato recibido: 01
+# Dato transmitido: 0d, Dato recibido: 0d
+# Simulacion finalizada
+# ** Note: $stop    : C:/Users/pelay/Downloads/TC2002B/UART/UART_tb_txrx.v(72)
+#    Time: 10421650 ps  Iteration: 0  Instance: /UART_tb_txrx
+# Break in Module UART_tb_txrx at C:/Users/pelay/Downloads/TC2002B/UART/UART_tb_txrx.v line 72
+# End time: 22:00:55 on Mar 07,2026, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 1
