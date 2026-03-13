@@ -1,0 +1,6 @@
+module suma (
+	input [3:0] numeros,
+	input carga,
+	output
+
+);

@@ -1,0 +1,9 @@
+module suma_w (
+	input [3:0] SW,
+	input [1:0] KEY,
+	output [7:0] HEX1,
+	output [7:0] HEX2
+	
+);
+
+
