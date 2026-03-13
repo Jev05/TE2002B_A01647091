@@ -1,0 +1,26 @@
+//cronometro que tiene boton de start, stop, y cuenta y actualiza segundos dependiendo de los milisegundos
+
+module cronometro_w (
+input MAX10_CLK1_50,
+input [0:0] SW, //RESET
+input [1:0] KEY, //START Y STOP
+output [6:0] HEX0, //UNIDADES
+output [6:0] HEX1, //DECENAS
+output [6:0] HEX2, //CENTENAS
+output [6:0] HEX3 //MILISEGUNDOS
+);
+
+
+cronometro cuenta (
+    .clk(MAX10_CLK1_50),
+    .rst(SW[0]),
+    .stop(KEY[0]),
+    .start(KEY[1]),
+    .seguni(HEX0),
+    .segde(HEX1),
+    .segce(HEX2),
+    .segmiseg(HEX3)
+);
+
+
+endmodule

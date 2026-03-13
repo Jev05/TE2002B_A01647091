@@ -1,0 +1,48 @@
+module cronometro(
+    input  clk,     
+    input  start,
+    input  stop,
+    input rst,
+    output wire [6:0] seguni,
+    output wire [6:0] segde,
+    output wire [6:0] segce,
+    output wire [6:0] segmiseg
+);
+
+wire clk_1hz;
+
+clk_div #(.FREQ(1)) div (
+    .clk(clk),
+    .rst(rst),
+    .clk_divi(clk_1hz)
+);
+
+reg [13:0] miliseg;
+reg corriendO;
+
+always @(posedge clk_1hz or negedge rst) begin
+    if (~rst) begin
+        miliseg <= 14'b0;
+        corriendO <= 1'b0;
+    end else begin
+        if (start) corriendO <=1;
+        if (stop) corriendO <=0;
+        if (corriendO) begin
+            if(ms == 9999)
+                miliseg <= 14'b0;
+            else
+                miliseg <= miliseg + 1; 
+        end
+    end
+end
+
+
+BCD_4displays #(.N_in(14), .N_out(8)) WRAP (
+        .bcd_in   (miliseg),
+        .D_un     (HEX0),
+        .D_de     (HEX1),
+        .D_cen    (HEX2),
+        .D_un_mi  (HEX3)
+    );
+
+endmodule
