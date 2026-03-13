@@ -1,0 +1,38 @@
+module convertidor #(parameter min = 0, max = 180)(
+)
+
+wire        x_signo;
+wire [9:0] x_visual;
+
+assign x_signo  = data_x_reg[15];
+assign x_visual = x_signo ? (~data_x_reg + 1'b1) : data_x_reg;
+
+assign LEDR[9] = x_signo;
+
+wire [15:0] x_offset;
+assign x_offset = x_signo ? ( (x_visual > 256) ? 16'd0 : (16'd256 - x_visual) ) : ( 16'd256 + x_visual );
+wire [31:0] x_mult = x_offset * 180;
+wire [15:0] x_calc = x_mult >> 9;
+
+wire [15:0] grados_x;
+assign grados_x = (x_calc > 180) ? 16'd180 : x_calc[15:0];
+
+//-----------------------
+
+wire z_signo;
+wire [15:0] z_visual;
+
+assign z_signo = data_z_reg [15];
+assign z_visual = z_signo ? (~data_z_reg + 1'b1) : data_z_reg;
+assign LEDR[7] = z_signo;
+
+wire [15:0] z_offset;
+assign z_offset = z_signo ? ( (z_visual > 256) ? 16'd0 : (16'd256 - z_visual) ) : ( 16'd256 + z_visual );
+wire [31:0] z_mult = z_offset * 180;
+wire [15:0] z_calc = z_mult >> 9;
+
+wire [15:0] grados_z;
+assign grados_z = (z_calc < 90)  ? 16'd90  : (z_calc > 180) ? 16'd180 : z_calc[15:0];
+
+wire [7:0] garra;
+assign garra = (SW[6] == 1) ? 50 : 30;

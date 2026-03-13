@@ -1,0 +1,45 @@
+module admin_mem #(parameter DATA_WIDTH = 17, ADDR_WIDTH = 7)(
+	input save, rst, clk, en_x, en_y, en_z,
+	input [15:0] in_x, in_y, in_z,
+	output reg [DATA_WIDTH-2:0] data_ox, data_oy, data_oz
+);
+
+wire	we_x, we_y, we_z;
+reg	[ADDR_WIDTH-1:0] addr_x, addr_y, addr_z;
+
+mem_brazo #(.DATA_WIDTH(DATA_WIDTH), .ADDR_WIDTH(ADDR_WIDTH), .FILE("memX.hex")) X(
+   .clk		(clk),
+   .we		(we_x),
+   .addr	(addr_x),
+   .data_in(in_x),
+   .data_out(data_ox)
+);
+
+mem_brazo #(.DATA_WIDTH(DATA_WIDTH), .ADDR_WIDTH(ADDR_WIDTH), .FILE("memY.hex")) Y(
+   .clk		(clk),
+   .we		(we_y),
+   .addr		(addr_y),
+   .data_in	(in_y),
+   .data_out(data_oy)
+);
+
+mem_brazo #(.DATA_WIDTH(DATA_WIDTH), .ADDR_WIDTH(ADDR_WIDTH), .FILE("memZ.hex")) Z(
+   .clk		(clk),
+   .we		(we_z),
+   .addr		(addr_z),
+   .data_in	(in_z),
+   .data_out(data_oz)
+);
+
+counter_rampa #(.max_count(255), .n(8)) ramp (.clk(clk_d), .rst(rst), .count(count_r));
+
+always @(posedge clk or en_x) begin
+	if(en_x == 0)
+		data_ox <= data_ox;
+	else if (save) begin
+		we_x <= 1;
+		in_x <=
+	end
+		
+end
+endmodule
