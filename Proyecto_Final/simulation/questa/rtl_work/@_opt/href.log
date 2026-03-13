@@ -1,0 +1,5 @@
+BEGIN 1:admin_mem:fast:work
+    addr_x :  1:admin_mem_tb:fast:work
+    delay_counter_x :  1:admin_mem_tb:fast:work
+    state_write :  1:admin_mem_tb:fast:work
+END 

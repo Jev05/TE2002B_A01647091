@@ -1,0 +1,367 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/sesgaro/DisenoC/brazo/Accelerometer/simulation/questa
+T_opt
+!i145 1
+!i144 0
+Z2 !s110 1772922500
+VZB@D;`A48XWlf7UWGGT1V3
+04 12 4 work admin_mem_tb fast 0
+=1-ec91616f0753-69aca684-a9cdb-39fe3
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U5 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2025.2;82
+vaccel
+2/home/sesgaro/DisenoC/brazo/Accelerometer/accel.v
+R2
+!i10b 1
+!s100 AN6H9_m`VZ?ec2GgLWVBa1
+I<`]dD?GAY_nWRl2ia]ZjV0
+R1
+w1772918841
+8/home/sesgaro/DisenoC/brazo/Accelerometer/accel.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/accel.v
+!i122 3
+L0 6 120
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1772922500.000000
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/accel.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/accel.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -work work +incdir+/home/sesgaro/DisenoC/brazo/Accelerometer -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vadmin_mem
+2/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem.v
+R2
+!i10b 1
+!s100 EceAkZNamkX<ESiKeYc8k1
+ID`8IG<RV0XkUiKYQBb_<m3
+R1
+w1772921907
+8/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem.v
+!i122 14
+L0 1 177
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem.v|
+!i113 0
+R7
+R8
+R3
+vadmin_mem_tb
+2/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem_tb.v
+R2
+!i10b 1
+!s100 h;4NZIPfKdk5<ZNfKPXaK0
+Id;;0J;8ISRbMfIeeU3Q[c2
+R1
+w1772922461
+8/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem_tb.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem_tb.v
+!i122 13
+L0 3 74
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem_tb.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/admin_mem_tb.v|
+!i113 0
+R7
+R8
+R3
+vclock_divider
+2/home/sesgaro/DisenoC/brazo/Accelerometer/clock_divider.v
+R2
+!i10b 1
+!s100 ;1g<1O?ICLU2OH7@DHA4Y2
+Ig^l?go@TQkELYb4Dz2;iF1
+R1
+w1772722196
+8/home/sesgaro/DisenoC/brazo/Accelerometer/clock_divider.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/clock_divider.v
+!i122 5
+Z9 L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/clock_divider.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/clock_divider.v|
+!i113 0
+R7
+R8
+R3
+vconvertidor
+2/home/sesgaro/DisenoC/brazo/Accelerometer/convertidor.v
+R2
+!i10b 1
+!s100 ;ziMamaHKn:jCQcX0f@>O1
+IF5fNaDLNL`@]I?CGBBYZf2
+R1
+w1772915419
+8/home/sesgaro/DisenoC/brazo/Accelerometer/convertidor.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/convertidor.v
+!i122 10
+L0 1 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/convertidor.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/convertidor.v|
+!i113 0
+R7
+R8
+R3
+vcounter
+2/home/sesgaro/DisenoC/brazo/Accelerometer/counter.v
+R2
+!i10b 1
+!s100 @7;d5iKc2MSRFH_1;U@Sz2
+I0z_eI4_SP3:56he7Yl@Gk3
+R1
+w1772119871
+8/home/sesgaro/DisenoC/brazo/Accelerometer/counter.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/counter.v
+!i122 7
+L0 1 28
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/counter.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/counter.v|
+!i113 0
+R7
+R8
+R3
+vcounter_mem
+2/home/sesgaro/DisenoC/brazo/Accelerometer/counter_mem.v
+R2
+!i10b 1
+!s100 1:7=REhL?NXmEeVXaXWOX2
+I3>:=MToXRbN2e5k^GiNPI3
+R1
+w1772909427
+8/home/sesgaro/DisenoC/brazo/Accelerometer/counter_mem.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/counter_mem.v
+!i122 8
+L0 1 35
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/counter_mem.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/counter_mem.v|
+!i113 0
+R7
+R8
+R3
+vcounter_rampa
+2/home/sesgaro/DisenoC/brazo/Accelerometer/counter_rampa.v
+R2
+!i10b 1
+!s100 b_SEOOz3Kj>UKdoFZ`NOM1
+I`oXnPMk1lOkmhE7U78cnd0
+R1
+w1772752712
+8/home/sesgaro/DisenoC/brazo/Accelerometer/counter_rampa.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/counter_rampa.v
+!i122 9
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/counter_rampa.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/counter_rampa.v|
+!i113 0
+R7
+R8
+R3
+vmem_brazo
+2/home/sesgaro/DisenoC/brazo/Accelerometer/mem_brazo.v
+R2
+!i10b 1
+!s100 `OcJcPn<B^zE@?[Ua5DMd3
+Ig1o_`HSfMWZ8UmICJU?F21
+R1
+w1772764931
+8/home/sesgaro/DisenoC/brazo/Accelerometer/mem_brazo.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/mem_brazo.v
+!i122 11
+R9
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/mem_brazo.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/mem_brazo.v|
+!i113 0
+R7
+R8
+R3
+vPLL
+2/home/sesgaro/DisenoC/brazo/Accelerometer/PLL.v
+R2
+!i10b 1
+!s100 7XPOG9k4bi6gI;[f_?>z81
+IImi3gN@W@X^DM3zI0g`_^1
+R1
+w1772721178
+8/home/sesgaro/DisenoC/brazo/Accelerometer/PLL.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/PLL.v
+!i122 4
+L0 40 126
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/PLL.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/PLL.v|
+!i113 0
+R7
+R8
+R3
+n@p@l@l
+vPLL_altpll
+2/home/sesgaro/DisenoC/brazo/Accelerometer/db/PLL_altpll.v
+R2
+!i10b 1
+!s100 k9gWglNHAMEC1nE5J2f7a2
+Id>ohVknzC4OghSl?J`Sn[1
+R1
+w1772825030
+8/home/sesgaro/DisenoC/brazo/Accelerometer/db/PLL_altpll.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/db/PLL_altpll.v
+!i122 12
+L0 30 71
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/db/PLL_altpll.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer/db|/home/sesgaro/DisenoC/brazo/Accelerometer/db/PLL_altpll.v|
+!i113 0
+R7
+!s92 -work work +incdir+/home/sesgaro/DisenoC/brazo/Accelerometer/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@p@l@l_altpll
+vservo_control
+2/home/sesgaro/DisenoC/brazo/Accelerometer/servo_control.v
+R2
+!i10b 1
+!s100 Zdm4hPcJAVO:F<YBeiThJ2
+Ii9_djX04Ye9nzM@:RBoaR2
+R1
+w1772825663
+8/home/sesgaro/DisenoC/brazo/Accelerometer/servo_control.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/servo_control.v
+!i122 6
+L0 1 64
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/servo_control.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer|/home/sesgaro/DisenoC/brazo/Accelerometer/servo_control.v|
+!i113 0
+R7
+R8
+R3
+vspi_control
+2/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_control.v
+R2
+!i10b 1
+!s100 9HLH2YRl?EkLTKang?^j]3
+IiQaGQd?5DRi3MZ[4mXffR3
+R1
+Z10 w1772721180
+8/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_control.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_control.v
+!i122 2
+L0 1 288
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1772922499.000000
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_control.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer/hdl|/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_control.v|
+!i113 0
+R7
+Z12 !s92 -work work +incdir+/home/sesgaro/DisenoC/brazo/Accelerometer/hdl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vspi_serdes
+2/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_serdes.v
+!s110 1772922499
+!i10b 1
+!s100 da;:gza93QWG_]?6dLi4z3
+IQiM2oQGCad<l<gTj3O1Oc3
+R1
+R10
+8/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_serdes.v
+F/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_serdes.v
+!i122 1
+L0 1 104
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_serdes.v|
+!s90 -reportprogress|300|-work|work|+incdir+/home/sesgaro/DisenoC/brazo/Accelerometer/hdl|/home/sesgaro/DisenoC/brazo/Accelerometer/hdl/spi_serdes.v|
+!i113 0
+R7
+R12
+R3

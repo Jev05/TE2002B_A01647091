@@ -1,0 +1,5 @@
+1 9 mem_brazo 4 fast 68 /home/sesgaro/DisenoC/brazo/Accelerometer/simulation/questa/rtl_work 0 0 0 0 67 0
+1 11 counter_mem 4 fast 68 /home/sesgaro/DisenoC/brazo/Accelerometer/simulation/questa/rtl_work 0 0 0 0 65 0
+1 13 counter_rampa 4 fast 68 /home/sesgaro/DisenoC/brazo/Accelerometer/simulation/questa/rtl_work 0 0 0 0 34 0
+1 9 admin_mem 4 fast 68 /home/sesgaro/DisenoC/brazo/Accelerometer/simulation/questa/rtl_work 0 0 180224 0 421 0
+1 12 admin_mem_tb 4 fast 68 /home/sesgaro/DisenoC/brazo/Accelerometer/simulation/questa/rtl_work 0 0 0 0 187 0
